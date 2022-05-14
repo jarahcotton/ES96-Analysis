@@ -1,2 +1,2 @@
-# ES96-Analysis
-Attempt at Hedonic Analysis of Crime and Housing Data in the North End
+# ES96- Hedonic Analysis
+Attempt at Hedonic Analysis of Crime and Housing Data in the North End. Required data sets include Housing Prices.xlsx, NEnd All Crimes YDT Percent Change.xlsx, NEnd Crime Groups YDT Percent Change.xlsx, NEnd All Crimes YDT Value.xlsx, NEnd Crime Groups YDT Value.xlsx, Springfield All Crimes YDT Percent Change.xlsx, Springfield Crime Groups YDT Percent Change.xlsx, Springfield All Crimes YDT Value.xlsx, and Springfield Crime Groups YDT Value.xlsx. Created March 21, 2022. Produced using python. 
