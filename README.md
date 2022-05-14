@@ -1,2 +1,2 @@
-# ES96- Individual Analysis of Crime Comparison Report by Springfield Police Dept (2008-2019)
-Individual Analysis of Crime Comparison Report by Springfield Police Dept (2008-2019) in the North End of Springfield Massachusetts. Required data sets include  NEnd All Crimes YDT Value.xlsx, and Springfield All Crimes YDT Value.xlsx. Created April 25, 2022. Produced using python. 
+# ES96- North End Education MCAS Data Comparison
+North End Education MCAS data comparison to the rest of Springfield, Massachusetts. Required data sets include Education_2019_percentages_compiled_wAvg.xlsx, and Brightwood_Ed_Data.xlsx. Created March 21, 2022. Produced using python. 
