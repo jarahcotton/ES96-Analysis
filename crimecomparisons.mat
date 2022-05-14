@@ -1,0 +1,59 @@
+springfieldpersons = xlsread("SpringfieldComparison1.xlsx", 'D11:O11');
+northendpersons = xlsread("NorthEndComparison1.xlsx", 'D11:O11');
+springfieldproperty = xlsread("SpringfieldComparison1.xlsx", 'D31:O31');
+northendproperty = xlsread("NorthEndComparison1.xlsx", 'D31:O31');
+springfieldsociety = xlsread("SpringfieldComparison1.xlsx", 'D36:O36');
+northendsociety = xlsread("NorthEndComparison1.xlsx", 'D36:O36');
+springfieldB = xlsread("SpringfieldComparison1.xlsx", 'D43:O43');
+northendB = xlsread("NorthEndComparison1.xlsx", 'D43:O43');
+time = 2008:1:2019;
+
+figure()
+subplot(4,2,1);
+plot(time, springfieldpersons, 'b', "LineWidth", 3)
+xlabel('Year')
+ylabel('Number of Crimes')
+title({'Total Number of Crimes Against Persons', 'in Springfield'})
+
+subplot(4,2,2);
+plot(time, northendpersons, 'r', "LineWidth", 3)
+xlabel('Year')
+ylabel('Number of Crimes')
+title({'Total Number of Crimes Against Persons', 'in the North End'})
+
+subplot(4,2,3);
+plot(time, springfieldproperty, 'b', "LineWidth", 3)
+xlabel('Year')
+ylabel('Number of Crimes')
+title({'Total Number of Crimes Against Property', 'in Springfield'})
+
+subplot(4,2,4);
+plot(time, northendproperty, 'r', "LineWidth", 3)
+xlabel('Year')
+ylabel('Number of Crimes')
+title({'Total Number of Crimes Against Property', 'in the North End'})
+
+subplot(4,2,5);
+plot(time, springfieldsociety, 'b', "LineWidth", 3)
+xlabel('Year')
+ylabel('Number of Crimes')
+title({'Total Number of Crimes Against Society', 'in Springfield'})
+
+subplot(4,2,6);
+plot(time, northendsociety, 'r', "LineWidth", 3)
+xlabel('Year')
+ylabel('Number of Crimes')
+title({'Total Number of Crimes Against Society', 'in the North End'})
+
+
+subplot(4,2,7);
+plot(time, springfieldB, 'b', "LineWidth", 3)
+xlabel('Year')
+ylabel('Number of Crimes')
+title({'Total Number of Group B Crimes', 'in Springfield'})
+
+subplot(4,2,8);
+plot(time, northendB, 'r', "LineWidth", 3)
+xlabel('Year')
+ylabel('Number of Crimes')
+title({'Total Number of Group B Crimes', 'in the North End'})
