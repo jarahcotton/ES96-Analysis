@@ -1,2 +1,2 @@
-# ES96- Pynchon Rent Potential Analysis
-Analysis of the monthly and yearly market rent potentials of Pynchon Aprtments in the North End of Springfield, Massachusetts. Required data set includes Pynchon Rent Schedules.xlsx. Created March 21, 2022. Produced using python. 
+# ES96- NIBRS Categorical Crime Analysis
+Analysis of the criminal offenses committed from 2008-2019 in the North End and the rest of Springfield, Massachusetts. Required data sets include SpringfieldComparison1.xlsx, and NorthEndComparison1.xlsx. Created March 8, 2022. Produced using Matlab. 
